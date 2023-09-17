@@ -1,0 +1,10 @@
+.resize {
+  resize: none;
+}
+
+.container {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+
