@@ -7,4 +7,6 @@
   overflow: hidden;
 }
 
-
+.active{
+  font-weight: bold;
+}
