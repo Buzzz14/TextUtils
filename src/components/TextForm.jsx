@@ -6,13 +6,11 @@ export default function TextForm(props) {
     navigator.clipboard.writeText(text.value);
     props.showAlert("The text has been copied to clipboard!", "success")
   }
-
   const handleExtraSpaces = () => {
     let newText = text.split(/[ ]+/);
     setText(newText.join(" "))
     props.showAlert("The extraspaces has been removed!", "success")
   }
-
   const handleUpClick = () => {
     let newText = text.toUpperCase();
     setText(newText)
@@ -57,10 +55,13 @@ export default function TextForm(props) {
 
         <div className="container my-4">
           <h3>Your Text Summary</h3>
+
           <p>{text.split(/\s+/).filter((element) => { return element.length !== 0 }).length} Words, {text.length} Characters</p>
+          
           <p>Time to Read: {0.008 * text.split(/\s+/).filter((element) => { return element.length !== 0 }).length.toFixed(2)} minutes or {0.48 * text.split(/\s+/).filter((element) => { return element.length !== 0 }).length.toFixed(2)} seconds</p>
-          {/* <h3>Preview:</h3>
-          <p>{text.length > 0 ? text : "Please enter the text to preview"}</p> */}
+          
+          <h3>Preview:</h3>
+          <p>{text.length > 0 ? text : "Please enter the text to preview"}</p>
         </div>
       </div>
     </>

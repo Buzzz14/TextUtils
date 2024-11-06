@@ -19,7 +19,7 @@ export default function About() {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            <strong>TextUtils is all about transforming your text effortlessly.</strong> Need your text in uppercase? Lowercase? We can do that. Our tools help you tweak text to your heart's content, and we do it with precision and speed.
+                            <strong>Text-Master is all about transforming your text effortlessly.</strong> Need your text in uppercase? Lowercase? We can do that. Our tools help you tweak text to your heart's content, and we do it with precision and speed.
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function About() {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            <strong>Say goodbye to cluttered text.</strong> TextUtils can remove those pesky extra spaces that sneak into your content. We help you maintain text clarity and readability, making your content look clean and professional.
+                            <strong>Say goodbye to cluttered text.</strong> Text-Master can remove those pesky extra spaces that sneak into your content. We help you maintain text clarity and readability, making your content look clean and professional.
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function About() {
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            <strong>TextUtils goes beyond just manipulation.</strong> Curious about how many characters or words are in your text? Wondering how long it will take to read? We provide you with valuable insights to help you better understand your content.
+                            <strong>Text-Master goes beyond just manipulation.</strong> Curious about how many characters or words are in your text? Wondering how long it will take to read? We provide you with valuable insights to help you better understand your content.
                         </div>
                     </div>
                 </div>
